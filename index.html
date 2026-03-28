@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Calculate the true cost of car rental at airports worldwide">
+<title>ReviewCarHire - Car Rental Calculator</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: linear-gradient(135deg, #0f172a, #1e3a5f); min-height: 100vh; color: white; }
+  .hero { text-align: center; padding: 80px 20px; }
+  .hero h1 { font-size: 2.5rem; font-weight: 800; margin-bottom: 16px; background: linear-gradient(135deg, #60a5fa, #a78bfa); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+  .hero .subtitle { font-size: 1.1rem; color: #94a3b8; margin-bottom: 24px; }
+  .tagline { font-size: 1.25rem; color: #e2e8f0; max-width: 600px; margin: 0 auto 40px; }
+  .cta { display: inline-block; padding: 14px 32px; background: linear-gradient(135deg, #3b82f6, #6366f1); color: white; text-decoration: none; border-radius: 8px; font-weight: 700; font-size: 1.1rem; transition: transform 0.2s; }
+  .cta:hover { transform: translateY(-2px); box-shadow: 0 8px 25px rgba(59,130,246,0.4); }
+  .ext-badge { margin-top: 30px; padding: 10px 20px; background: rgba(255,255,255,0.1); border-radius: 20px; font-size: 0.85rem; color: #94a3b8; }
+  .calc-preview { background: rgba(255,255,255,0.05); border-radius: 16px; padding: 30px; max-width: 400px; margin: 40px auto; border: 1px solid rgba(255,255,255,0.1); }
+  .calc-preview h3 { font-size: 1rem; color: #94a3b8; margin-bottom: 20px; }
+  .calc-row { display: flex; justify-content: space-between; margin-bottom: 12px; color: #cbd5e1; font-size: 0.9rem; }
+  .calc-row span { color: #60a5fa; font-weight: 600; }
+  .calc-result { border-top: 1px solid rgba(255,255,255,0.1); padding-top: 12px; margin-top: 12px; }
+  .calc-result .amount { font-size: 1.8rem; font-weight: 800; color: #fbbf24; }
+  .calc-result .label { font-size: 0.75rem; color: #94a3b8; }
+  .footer { text-align: center; padding: 40px 20px; color: #475569; font-size: 0.8rem; }
+  .footer a { color: #60a5fa; text-decoration: none; }
+</style>
+</head>
+<body>
+  <div class="hero">
+    <h1>ReviewCarHire - Car Rental Calculator</h1>
+    <p class="subtitle">Browser Extension for Car Hire Comparison</p>
+    <p class="tagline">Calculate the true cost of car rental at airports worldwide</p>
+    <a href="https://reviewcarhire.com" class="cta">Find Better Car Hire Deals →</a>
+    <div class="ext-badge">Install: Chrome Web Store (coming soon)</div>
+  </div>
+
+  <div class="calc-preview">
+    <h3>Missed Call Cost Calculator</h3>
+    <div class="calc-row">Calls missed/week: <span>10</span></div>
+    <div class="calc-row">Avg job value: <span>$300</span></div>
+    <div class="calc-row">Conversion rate: <span>30%</span></div>
+    <div class="calc-result">
+      <div class="amount">$46,800/year</div>
+      <div class="label">lost to missed calls</div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <p>Part of the <a href="https://reviewcarhire.com">reviewcarhire.com</a> network</p>
+    <p style="margin-top:8px;">Free Chrome Extension — MIT License</p>
+  </div>
+</body>
+</html>
